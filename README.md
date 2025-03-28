@@ -28,8 +28,8 @@
 3. 下载源代码，更新 feeds 并选择配置
 
    ```bash
-   git clone https://github.com/Kevin-R1/OpenWrt-X
-   cd OpenWrt-X
+   git clone https://github.com/Kevin-R1/Photonicat
+   cd Photonicat
    ./scripts/feeds update -a
    ./scripts/feeds install -a
    make menuconfig
@@ -48,7 +48,7 @@
 二次编译：
 
 ```bash
-cd OpenWrt-X
+cd Photonicat
 git pull
 ./scripts/feeds update -a
 ./scripts/feeds install -a
